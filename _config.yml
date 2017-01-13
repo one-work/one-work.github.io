@@ -1,0 +1,17 @@
+include: ['assets/', 'CNAME']
+exclude: ['.ruby-version', 'README.md', 'Rakefile', 'Gemfile', 'Gemfile.lock']
+encoding: UTF-8
+
+permalink: /:categories/:title
+
+title: 新声音
+tagline: Site Tagline
+production_url : http://www.xinshengyin.com
+
+navigation:
+ - url: /
+   title: 首页
+ - url: /category
+   title: 分类
+ - url: /about
+   title: 关于我
